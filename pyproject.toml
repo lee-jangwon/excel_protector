@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "excel-protector"
+version = "0.1.0"
+description = ""
+authors = ["lee-jangwon <leejangwon1995@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+spire-xls = "^14.4.4"
+random-password-generator = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
